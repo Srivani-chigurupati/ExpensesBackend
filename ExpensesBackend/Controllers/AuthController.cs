@@ -25,6 +25,7 @@ namespace ExpensesBackend.Controllers
                 using(var context=new AppDbContext())
                 {
                     var exists = context.Users.Any(u => u.UserName == user.UserName && u.Password == user.Password);
+
                     if (exists)
                     {
                         return Ok(CreateToken(user));
