@@ -20,7 +20,7 @@ ExpensesBackend is a .NET 8 web API project designed to manage user authenticati
 
 **Setup Instructions**
 1.	**Clone the repository:**
-   git clone https://github.com/your-repo/ExpensesBackend.git
+   git clone https://github.com/Srivani-chigurupati/ExpensesBackend.git
    cd ExpensesBackend
 2.	**Install the required packages:**
     dotnet restore
