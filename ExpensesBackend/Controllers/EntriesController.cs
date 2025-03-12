@@ -102,6 +102,7 @@ namespace ExpensesBackend.Controllers
                     {
                         return NotFound();
                     }
+                    oldEntry.Date = entry.Date;
                     oldEntry.Description = entry.Description;
                     oldEntry.IsExpense = entry.IsExpense;
                     oldEntry.Value = entry.Value;
